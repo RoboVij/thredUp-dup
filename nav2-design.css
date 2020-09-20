@@ -1,0 +1,38 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    font-size: 1.5rem;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item {
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+body{
+    color: #575655;
+    font-family: 'Baloo 2', cursive;
+    margin: 0;
+}
+.custm-btn{
+    border: 1px solid black;
+    width: 150px;
+    height: auto;
+    color: #575655;
+    margin-right: 2%;
+    border-radius: 4%;
+}
+.form-inline .form-control{
+    border-radius: 30px 30px 30px 30px;
+    height: 40px;
+    width: 400px;
+    border-color: transparent;
+    display: flex;
+}

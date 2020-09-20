@@ -1,0 +1,276 @@
+body{
+    color: #575655;
+    font-family: 'Baloo 2', cursive;
+}
+h6 {
+    background: #eb2650;
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+a{
+    color: white;
+}
+.item{
+    /* padding-top: 8px;
+    padding-right: 12px;
+    padding-left: 12px; */
+    font-size: 2.0rem;
+}
+.form-inline .form-control{
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    width: 100%;
+}
+.item + .vert-space{
+    border-right: 1px solid rgba(235, 228, 229, 1.5);
+}
+nav{
+    background: #dbd7d8;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav-imp{
+    font-size: 2rem;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 2rem;
+}
+#list > .active {
+    background-color: white;    
+}
+.navbar-nav > li{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sec-navbar{
+    background-color: #fcf2f4;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(235, 228, 229, 1.5);
+    font-size: 1.1rem;
+}
+#sec-navbar .nav-item{
+    padding-top: 0px;
+    padding-right: 6px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500
+}  
+h2{
+    color: #636161;
+}
+@media (min-width: 1200px) {
+    .offer-size{
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+}
+.offer-size{
+    padding-bottom: 2%;
+}
+.discount-size{
+    width: 23%;
+}
+.image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+ }
+.imageContainer {
+    position: absolute; 
+    top: 20%; 
+    left: 0; 
+    width: 100%; 
+    color: #575655;
+ }
+ .imageContainer1 {
+    position: absolute; 
+    top: 20%; 
+    left: 32%; 
+    width: 100%; 
+    color: #575655;
+ }
+ .imageContainer1 p{
+     margin: 0;
+ }
+h3{
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+.imageContainer p {
+    font-size: 1.25rem;
+    margin: 0;
+}
+.custm-btn{
+    border: 1px solid black;
+    width: 15%;
+    color: #575655;
+    margin: 2%;
+}
+
+@media (min-width:500px) {
+    h3{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .imageContainer p {
+        font-size: 0.75rem;
+        margin: 0;
+    }
+    .imageContainer1 p:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .imageContainer1 p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+    .imageContainer1 p:nth-of-type(3) {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .imageContainer1 p:nth-of-type(4) {
+        font-size: 1rem;
+    }
+    .imageContainer1 p:nth-of-type(5) {
+        font-size: 1rem;
+    }
+}
+@media (min-width:768px) {
+    h3{
+        font-size: 2.0rem;
+        font-weight: 700;
+    }
+    .imageContainer p {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .imageContainer1 p:nth-of-type(1) {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .imageContainer1 p:nth-of-type(2) {
+        font-size: 0.7rem;
+    }
+    .imageContainer1 p:nth-of-type(3) {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .imageContainer1 p:nth-of-type(4) {
+        font-size: 0.7rem;
+    }
+    
+}
+@media (min-width:992px) {
+    h3{
+        font-size: 3.0rem;
+        font-weight: 700;
+    }
+    .imageContainer p {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+    .imageContainer1 p:nth-of-type(1) {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .imageContainer1 p:nth-of-type(2) {
+        font-size: 1rem;
+    }
+    .imageContainer1 p:nth-of-type(3) {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .imageContainer1 p:nth-of-type(4) {
+        font-size: 1rem;
+    }
+}
+.row{
+    width: 100%;
+}
+.circle {
+    max-width: 200px;
+    min-width: 120px;
+    padding: 8px 8px 16px 0;
+}
+.circle img{
+    border-radius: 50%;
+    padding: 8px;
+    max-width: 130px;
+    min-width: 90px;
+    overflow: hidden;
+}
+.circle a{
+    color: white;
+}
+.depts img{
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 6px;
+    object-fit: cover;
+    width: 110px;
+    height: 110px;
+    /* object-position: 20% 0; */
+}
+.button-bar p{
+    margin: 3%;
+    color: white;
+}
+.button-bar{
+    color: white;
+    background-color: #fc3258;
+    border-left: 0.5em solid white;
+    border-right: 1.5em solid white;
+    border-bottom: 0.5em solid white;
+}
+.custm-btn1{
+    border: 1px solid white;
+    border-radius: 4%;
+    width: 38%;
+    color: #575655;
+    margin: 2%;
+    background-color: transparent;
+    margin-right: 1.0rem;
+    margin-left: 1.0rem;
+}
+button{
+    margin: 0;
+}
+.depts a{
+    padding: 0;
+    color: #575655;
+    display: inline-block;
+}
+.h-scroll {
+    overflow: auto;
+    white-space: nowrap;
+  }
+.disclaimer p{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+#list{
+    list-style: none;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    padding: 0;
+}
+#list > li{
+    display: inline-block;
+    padding-right: 25px;
+}
+#list a{
+    color: #575655;
+}
+#site-end{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+  /* Shops/Brands flexible circle sizes when window minimises
+    Image Discounts same size everywhere in different rows and diff pics */
